@@ -442,6 +442,7 @@ type RawConfig struct {
 	Proxy         []map[string]any          `yaml:"proxies" json:"proxies"`
 	ProxyGroup    []map[string]any          `yaml:"proxy-groups" json:"proxy-groups"`
 	Rule          []string                  `yaml:"rules" json:"rule"`
+	AppRule       []string                  `yaml:"clash-for-android-app-rules" json:"clash-for-android-app-rules"`
 	SubRules      map[string][]string       `yaml:"sub-rules" json:"sub-rules"`
 	Listeners     []map[string]any          `yaml:"listeners" json:"listeners"`
 	Hosts         map[string]any            `yaml:"hosts" json:"hosts"`
